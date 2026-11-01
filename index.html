@@ -135,7 +135,7 @@
 
     async function loadPlanner() {
       try {
-        const { queryItems } = await import("https://headless-lzvmglwixba-valente11-1409.wix-site-host.com/js/wix/items.js");
+        const { queryItems } = await import("./js/wix/items.js");
         let skip = 0, hasNext = true, all = [];
         while (hasNext) {
           const page = await queryItems(COLLECTION_ID,{limit:100,skip});
