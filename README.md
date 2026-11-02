@@ -1,4 +1,4 @@
-# Little Kitchen Hub
+# Family Kitchen Hub
 
 A kid-friendly family kitchen dashboard hosted with GitHub Pages. The page is static; its weekly groceries, meal dates, and repair schedule are read from the Wix CMS collection **Kitchen Planner**.
 
